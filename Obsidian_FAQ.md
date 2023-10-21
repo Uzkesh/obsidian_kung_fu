@@ -85,7 +85,7 @@ ___
   ![[templates_directory.png]]
 
 - Настройка ежедневных заметок
-  ![[Pasted image 20231011001804.png]]
+  ![[daily_notes.png]]
 
 - DataView (plugin)
 - [Tasks](https://publish.obsidian.md/tasks/Introduction) (plugin)
