@@ -4,6 +4,7 @@
 >not done
 >(description regex matches /\S/i) AND (status.type is IN_PROGRESS)
 >sort by priority
+>sort by due
 >sort by scheduled
 >sort by description
 >```
@@ -15,6 +16,7 @@
 >not done
 >(heading includes work) AND (path does not include daily/{{title}}) AND (description regex matches /\S/i) AND ((scheduled before {{title}}) OR (has due date) OR (has start date)) AND (status.type is not IN_PROGRESS)
 >sort by priority
+>sort by due
 >sort by scheduled
 >sort by description
 >```
@@ -26,6 +28,7 @@
 >done
 >(heading includes work) AND (done on {{title}})
 >sort by priority
+>sort by due
 >sort by scheduled
 >sort by description
 >```
@@ -37,6 +40,7 @@
 >not done
 >(heading includes todo.family) AND (path does not include daily/{{title}}) AND (description regex matches /\S/i) AND ((scheduled before {{title}}) OR (has due date) OR (has start date)) AND (status.type is not IN_PROGRESS)
 >sort by priority
+>sort by due
 >sort by scheduled
 >sort by description
 >```
@@ -48,6 +52,7 @@
 >done
 >(heading includes todo.family) AND (done on {{title}})
 >sort by priority
+>sort by due
 >sort by scheduled
 >sort by description
 >```
@@ -59,6 +64,7 @@
 >not done
 >(heading includes life) AND (path does not include daily/{{title}}) AND (description regex matches /\S/i) AND ((scheduled before {{title}}) OR (has due date) OR (has start date)) AND (status.type is not IN_PROGRESS)
 >sort by priority
+>sort by due
 >sort by scheduled
 >sort by description
 >```
@@ -70,6 +76,7 @@
 >done
 >(heading includes life) AND (done on {{title}})
 >sort by priority
+>sort by due
 >sort by scheduled
 >sort by description
 >```
@@ -81,6 +88,7 @@
 >not done
 >(heading includes hobbies) AND (path does not include daily/{{title}}) AND (description regex matches /\S/i) AND ((scheduled before {{title}}) OR (has due date) OR (has start date)) AND (status.type is not IN_PROGRESS)
 >sort by priority
+>sort by due
 >sort by scheduled
 >sort by description
 >```
@@ -92,6 +100,7 @@
 >done
 >(heading includes hobbies) AND (done on {{title}})
 >sort by priority
+>sort by due
 >sort by scheduled
 >sort by description
 >```
