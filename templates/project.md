@@ -9,7 +9,7 @@ tags:
 >[!warning] Unfinished
 >```tasks
 >not done
->(description includes {{title}}) AND (status.type is not NON_TASK) AND (description regex matches /\S/i)
+>(heading includes work) AND (description includes {{title}}) AND (status.type is not NON_TASK) AND (description regex matches /\S/i)
 >sort by priority
 >sort by due
 >sort by scheduled
@@ -19,7 +19,16 @@ tags:
 >[!success]- Finished
 >```tasks
 >done
->(description includes {{title}}) AND  (status.type is not NON_TASK)
+>(heading includes work) AND (description includes {{title}}) AND  (status.type is not NON_TASK)
+>sort by priority
+>sort by due
+>sort by scheduled
+>sort by description
+>```
+
+>[!missing]- Cancelled
+>```tasks
+>(heading includes work) AND (description includes {{title}}) AND (status.type is CANCELLED)
 >sort by priority
 >sort by due
 >sort by scheduled
@@ -29,4 +38,6 @@ tags:
 >[!example] Events
 ```tasks
 (heading includes {{title}})
+group by filename
+short mode
 ```
