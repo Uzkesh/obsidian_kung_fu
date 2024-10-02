@@ -43,7 +43,7 @@ ___
 
 >[!example] Events
 ```tasks
-(heading does not include work) AND (heading does not include life) AND (heading does not include hobbies) AND (description includes {{title}})
+(heading includes {{title}}) OR (description includes {{title}}) AND (heading does not include work) AND (heading does not include life) AND (heading does not include hobbies)
 group by filename
 short mode
 ```

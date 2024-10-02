@@ -1,7 +1,10 @@
 ---
 title: 
 description: 
-refs:
+maintainers: 
+performers: 
+refs: 
+tags:
 ---
 
 >[!warning] Unfinished
@@ -35,7 +38,7 @@ refs:
 
 >[!example] Events
 ```tasks
-(heading includes {{title}})
+(heading includes {{title}}) OR (description includes {{title}}) AND (heading does not include work) AND (heading does not include life) AND (heading does not include hobbies)
 group by filename
 short mode
 ```
