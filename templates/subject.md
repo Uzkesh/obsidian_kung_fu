@@ -39,6 +39,7 @@ tags:
 >[!example] Events
 ```tasks
 (heading includes {{title}}) OR (description includes {{title}}) AND (heading does not include work) AND (heading does not include life) AND (heading does not include hobbies)
-group by filename
+group by filename reverse
 short mode
+hide task count
 ```
