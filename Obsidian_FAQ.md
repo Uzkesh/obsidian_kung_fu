@@ -18,6 +18,12 @@ ___
 - `Command + Space` - создание и редактирование чек-бокса (таски)
 - `Command + N` - создание новой заметки
 ___
+
+## Диаграммы Mermaid
+
+[Пример](https://mermaid.live/edit#pako:eNpVjUFvgkAQhf_KZk5tggYIi3UPTSq2Xkzag6eCh4mMLFF2ybLEWuC_d8E0tu80M-97bzo46JxAwPGsLweJxrLdOlPM6SVNpCkbW2GzZ7PZc78hyyqt6Nqz1cNGs0bqui5V8XjjVyPEkm47YsSsLNVpuFnJlH9X1LN1usXa6nr_19lddM9e0_JDuvr_jjTkUm_pEcURZwc0LEEzIeBBYcochDUteVCRqXBcoRvdDKykijIQbszRnDLI1OAyNapPravfmNFtIcF1nxu3tXWOltYlFgbvCKmcTKJbZUEE4WLqANHBF4jQD-ZxtAhCHkZREPlx6MF1PM95HPLBg-_plz9_WnDfKfBjzpfLJR9-AINYc6w)
+
+---
 ## Форматирование текста
 
 - Выделение текста

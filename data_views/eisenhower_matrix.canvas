@@ -1,9 +1,49 @@
 {
+	"edges":[],
 	"nodes":[
-		{"id":"d42ccde2a0a33fa9","type":"text","text":">[!warning] Сделать (важно, срочно)\n```tasks\nnot done\n(heading includes work) AND (description regex matches /\\S/i) AND (status.type is not IN_PROGRESS) AND ((priority is high) OR (priority is highest))\nsort by priority\nsort by due\nsort by scheduled\nsort by description\nhide task count\n```","x":-540,"y":-520,"width":660,"height":740},
-		{"id":"88905f8ce3652545","type":"text","text":">[!quote] Делегировать (срочно, не важно)\n```tasks\nnot done\n(heading includes work) AND (description regex matches /\\S/i) AND (status.type is not IN_PROGRESS) AND (priority is medium)\nsort by priority\nsort by due\nsort by scheduled\nsort by description\nhide task count\n```","x":160,"y":-520,"width":660,"height":740},
-		{"id":"5ea79a62c8c6e4e4","type":"text","text":">[!check] Запланировать (важно, не срочно)\n```tasks\nnot done\n(heading includes work) AND (description regex matches /\\S/i) AND (status.type is not IN_PROGRESS) AND (priority is none)\nsort by priority\nsort by due\nsort by scheduled\nsort by description\nhide task count\n```","x":-540,"y":300,"width":660,"height":720},
-		{"id":"c59889275efa25d4","type":"text","text":">[!fail] Удалить (не важно, не срочно)\n```tasks\nnot done\n(heading includes work) AND (description regex matches /\\S/i) AND (status.type is not IN_PROGRESS) AND ((priority is low) OR (priority is lowest))\nsort by priority\nsort by due\nsort by scheduled\nsort by description\n```","x":160,"y":300,"width":660,"height":720}
+		{
+			"height":740,
+			"id":"d42ccde2a0a33fa9",
+			"styleAttributes":{},
+			"text":">[!warning] Сделать (важно, срочно)\n```tasks\nnot done\n(heading includes work) AND (description regex matches /\\S/i) AND (status.type is not IN_PROGRESS) AND ((priority is high) OR (priority is highest))\nsort by priority\nsort by due\nsort by scheduled\nsort by description\nhide task count\n```",
+			"type":"text",
+			"width":660,
+			"x":-540,
+			"y":-520
+		},
+		{
+			"height":740,
+			"id":"88905f8ce3652545",
+			"styleAttributes":{},
+			"text":">[!quote] Делегировать (срочно, не важно)\n```tasks\nnot done\n(heading includes work) AND (description regex matches /\\S/i) AND (status.type is not IN_PROGRESS) AND (priority is medium)\nsort by priority\nsort by due\nsort by scheduled\nsort by description\nhide task count\n```",
+			"type":"text",
+			"width":660,
+			"x":160,
+			"y":-520
+		},
+		{
+			"height":720,
+			"id":"5ea79a62c8c6e4e4",
+			"styleAttributes":{},
+			"text":">[!check] Запланировать (важно, не срочно)\n```tasks\nnot done\n(heading includes work) AND (description regex matches /\\S/i) AND (status.type is not IN_PROGRESS) AND (priority is none)\nsort by priority\nsort by due\nsort by scheduled\nsort by description\nhide task count\n```",
+			"type":"text",
+			"width":660,
+			"x":-540,
+			"y":300
+		},
+		{
+			"height":720,
+			"id":"c59889275efa25d4",
+			"styleAttributes":{},
+			"text":">[!fail] Удалить (не важно, не срочно)\n```tasks\nnot done\n(heading includes work) AND (description regex matches /\\S/i) AND (status.type is not IN_PROGRESS) AND ((priority is low) OR (priority is lowest))\nsort by priority\nsort by due\nsort by scheduled\nsort by description\n```",
+			"type":"text",
+			"width":660,
+			"x":160,
+			"y":300
+		}
 	],
-	"edges":[]
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }
