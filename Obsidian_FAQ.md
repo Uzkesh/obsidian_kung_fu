@@ -1,6 +1,17 @@
-Полезная инфа, лайвхаки, hotkeys и ссылки
 
-==[Help](https://help.obsidian.md/Home)==
+## Настройка Obsidian
+
+- Активация плагинов
+  ![[files_directory.png]]
+
+- Настройка плагина tasks
+  ![[tasks_js.png]]
+
+---
+
+## Полезная инфа, лайвхаки, hotkeys и ссылки
+
+[Help](https://help.obsidian.md/Home)
 ___
 ## Обучалки по Obsidian
 
@@ -80,19 +91,3 @@ def run(text: str):
   
   >[!quote] Quote
   >Текст
-  
-___
-## Настройка Obsidian
-
-- Вставка и хранение изображений
-  ![[files_directory.png]]
-
-- Настройка шаблонов
-  ![[templates_directory.png]]
-
-- Настройка ежедневных заметок
-  ![[daily_notes.png]]
-
-- DataView (plugin)
-- [Tasks](https://publish.obsidian.md/tasks/Introduction) (plugin)
-  ![[tasks_settings_date.png]]

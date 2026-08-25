@@ -7,3 +7,24 @@
 !/templates/
 !/data_views/
 !/files/
+
+!/daily/
+/daily/*
+!/daily/.gitkeep
+
+!/.obsidian/
+/.obsidian/*
+# general settings
+!/.obsidian/app.json
+!/.obsidian/appearance.json
+!/.obsidian/templates.json
+!/.obsidian/daily-notes.json
+!/.obsidian/community-plugins.json
+# plugins
+!/.obsidian/plugins/
+/.obsidian/plugins/*
+## tasks
+!/.obsidian/plugins/obsidian-tasks-plugin/
+/.obsidian/plugins/obsidian-tasks-plugin/*
+!/.obsidian/plugins/obsidian-tasks-plugin/data.json
+
